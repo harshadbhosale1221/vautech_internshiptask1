@@ -1,0 +1,172 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #f1c40f;
+}
+
+/* Main Content */
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Articles */
+article {
+    margin-top: 15px;
+}
+
+article h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+article p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+article a {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+article a:hover {
+    background: #2980b9;
+}
+
+/* Categories */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Video */
+iframe {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #219150;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
