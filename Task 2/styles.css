@@ -1,0 +1,114 @@
+﻿/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Header section */
+header {
+  background-color: #2c7a7b;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+/* Navigation bar using Flexbox */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+nav a {
+  color: #2c7a7b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1a4f50;
+}
+
+/* Main content area */
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+/* Reusable content block */
+.content-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Card layout using Flexbox */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+  flex: 1;
+  min-width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  color: #2c7a7b;
+  margin-top: 0;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
